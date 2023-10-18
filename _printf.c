@@ -27,7 +27,7 @@ int _printf(const char *format, ...)
 	break;
 	if (*format == '%')
 	{
-	charac_print += write(1, format, 1); }
+		charac_print += write(1, format, 1); }
 	else if (*format == 'c')
 	{
 	c = va_arg(mylist_of_args, int);
