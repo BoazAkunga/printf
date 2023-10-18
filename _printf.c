@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _printf - Prints formatted output to stdout
- * @format: Format string
- * Return: Number of characters printed
+ * _printf - prints formatted output to stdout
+ * @format: format string
+ * Return: No of characters printed
  */
 int _printf(const char *format, ...)
 {
@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
 	va_list mylist_of_args;
 
 	if (format == NULL)
-	return (-1);
+		return (-1);
 	va_start(mylist_of_args, format);
 	while (*format)
 	{
