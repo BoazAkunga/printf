@@ -46,4 +46,3 @@ int _printf(const char *format, ...)
 	va_end(mylist_of_args);
 	return (charac_print);
 }
-
